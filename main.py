@@ -13,13 +13,21 @@ def encode(num):
 def main():
 	while True:
 		print("0. Exit\n1. Encode\n2. Decode")
+		print()
 		op = int(input("How would you like to proceed: "))
+		print()
 		if op == 0:
+			print("Session Terminated")
 			break
 		elif op == 1:
 			line = str(input("Enter number: "))
 			print(encode(line))
-	
+			print()
+		elif op == 2:
+			continue
+		else:
+			print("Warning! Invalid Selection")
+			print()
 	pass
 
 if __name__ == "__main__":
