@@ -14,7 +14,7 @@ def main():
 	while True:
 		print("0. Exit\n1. Encode\n2. Decode")
 		print()
-		op = int(input("How would you like to proceed: "))
+		op = int(input("Select option: "))
 		print()
 		if op == 0:
 			print("Session Terminated")
